@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<SplitPane dividerPositions="0.29797979797979796" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="592.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="423.0" prefWidth="175.0">
+         <children>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="14.0" prefHeight="40.0" prefWidth="134.0" text="Usuário&#10;não está logado&#10;" textAlignment="CENTER" />
+            <Button layoutY="74.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="175.0" text="Button" visible="false" />
+            <Button layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="175.0" text="Button" visible="false" />
+            <Button layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="175.0" text="Button" visible="false" />
+            <Button layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="175.0" text="Button" visible="false" />
+            <Button layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="175.0" text="Button" visible="false" />
+            <Button layoutX="-1.0" layoutY="313.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="175.0" text="Button" visible="false" />
+            <Button layoutY="370.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="175.0" text="Button" visible="false" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="426.0" prefWidth="418.0">
+         <children>
+            <Button layoutX="146.0" layoutY="255.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="148.0" text="Logar" />
+            <Pane layoutX="73.0" layoutY="73.0" prefHeight="40.0" prefWidth="304.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="13.0" text="Usuario:" />
+                  <TextField layoutX="73.0" layoutY="9.0" prefHeight="22.0" prefWidth="213.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="73.0" layoutY="179.0" prefHeight="40.0" prefWidth="304.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="13.0" text="Senha:" />
+                  <TextField layoutX="72.0" layoutY="9.0" prefHeight="22.0" prefWidth="213.0" />
+               </children>
+            </Pane>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

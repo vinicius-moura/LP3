@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="113.0" layoutY="40.0" prefHeight="211.0" prefWidth="411.0">
+         <children>
+            <Button fx:id="txt_produto" layoutX="41.0" layoutY="26.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="143.0" text="Produtos" />
+            <Button fx:id="txt_vendas" layoutX="196.0" layoutY="26.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="143.0" text="Vendas" />
+            <Button fx:id="txt_desafios" layoutX="41.0" layoutY="100.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="143.0" text="Desafios" />
+            <Button fx:id="txt_forncedores" layoutX="196.0" layoutY="100.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="143.0" text="Forncedores" />
+            <Button fx:id="btn_pagamento" layoutX="41.0" layoutY="156.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="143.0" text="Folha de pagamento" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
